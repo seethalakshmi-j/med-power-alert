@@ -1,0 +1,4 @@
+min_voltage,max_voltage,status,color
+0,179,CRITICAL_LOW,red
+180,209,WARNING_UNSTABLE,yellow
+210,1000,CRITICAL_HIGH,red
