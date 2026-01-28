@@ -1,0 +1,15 @@
+Front-End Description: 
+
+The Hospital Voltage Monitoring System front end is a simple, intuitive, and responsive web interface designed to visually monitor electrical voltage levels in critical hospital environments. The interface allows users to manually input voltage values and instantly receive real-time status feedback through color-coded alerts.
+
+The dashboard is built using HTML, CSS, and JavaScript, ensuring fast performance and ease of use even for non-technical staff. A minimal and centered layout improves readability and focuses user attention on critical alerts.
+
+The system uses visual alert boxes to clearly communicate voltage conditions:
+
+🟢 Green (Normal) – Voltage is stable and within the safe operating range
+
+🟡 Yellow (Warning) – Voltage is unstable and requires attention
+
+🔴 Red (Critical) – Voltage is dangerously low or high and needs immediate action
+
+This color-based alert mechanism enables quick decision-making in sensitive hospital areas such as operation theatres, ICUs, and vaccine storage units, where power stability is crucial. The front end is designed to be user-friendly, responsive, and easily extendable for real-time IoT sensor integration in the future.
