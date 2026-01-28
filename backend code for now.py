@@ -1,8 +1,7 @@
 import csv
 
-CSV_FILE = "D:\hospital power\hospital-optimaization\data.csv"
-HTML_FILE = "D:\SAMPLE\dem.html"
-
+CSV_FILE = "D:\Power Alert System\med-power-alertdata.csv"
+HTML_FILE = "D:\Power Alert System\med-power-alert\dem.html"    
 def check_voltage(voltage):
     with open(CSV_FILE, newline='') as file:
         reader = csv.DictReader(file)
